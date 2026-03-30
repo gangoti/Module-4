@@ -23,12 +23,17 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
-
+try:
+    a=int(input())
+    b=int(input())
+    print(a+b)
+except:
+    print("cannot add integer with string")
 ```
 
 ### OUTPUT
+<img width="1187" height="341" alt="image" src="https://github.com/user-attachments/assets/1295eb8f-0572-4819-a210-ed797157c2d8" />
+
 
 ### RESULT
+Therefore, the output is the example to create a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers.
